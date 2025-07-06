@@ -17,8 +17,8 @@ We define three lanes: `firstLane`, which splits into `leftLane` and `rightLane`
 
 The road network contains three vehicles with the following initial positions:  
 - The **ego vehicle** is on `firstLane`, approaching the split endpoint.
-- The **second vehicle** is near the start of `leftLane`.
-- The **third vehicle** is near the start of `rightLane`.
+- The **second vehicle** (left) is near the start of `leftLane`.
+- The **third vehicle** (right) is near the start of `rightLane`.
 
 The second and third vehicles are equidistant from the ego vehicle; however, the second vehicle moves slower than the third.
 
@@ -31,8 +31,8 @@ We verify if the ego vehicle violates the **time-to-collision threshold** of **2
 1. **Front Vehicle Identification**
 
    Using the framework implementation, the system identifies front vehicles for the ego vehicle within the 2-second threshold. Both the second and third vehicles qualify as front vehicles, each corresponding to different ego vehicle trajectories:
-   - The second vehicle is a front vehicle if the ego assumes the left lane.
-   - The third vehicle is a front vehicle if the ego assumes the right lane.
+   - The second vehicle (left) is a front vehicle if the ego assumes the left lane.
+   - The third vehicle (right) is a front vehicle if the ego assumes the right lane.
 
 2. **Time-to-Collision Verification**
 

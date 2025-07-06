@@ -102,7 +102,7 @@ vehicleState3_third =
   VehicleState
     position3_third
     5 -- speed of the third vehicle
-    1 -- acceleration of the third vehicle
+    0 -- acceleration of the third vehicle
     PositiveDirection
     []
     []

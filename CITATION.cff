@@ -2,6 +2,6 @@ cff-version: 1.2.0
 authors:
 - family-names: "Labzhaniia"
   given-names: "Maksym"
-title: "MakSafe Haskell Framework: Experiments for SEFM 2025"
-date-released: 2025-06-27
-url: "https://github.com/soft-guy/SEFM-2025_MakSafe-Experiment"
+title: "MakSafe Haskell Framework: Experiments for VECoS 2025"
+date-released: 2025-07-26
+url: "https://github.com/soft-guy/VECoS2025-MakSafe-Experiment"

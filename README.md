@@ -1,4 +1,4 @@
-# MakSafe: Haskell Prototype & Experiment (SEFM 2025)
+# MakSafe: Haskell Prototype & Experiment (VECoS 2025)
 
 **MakSafe** provides a formal framework for defining and evaluating spatiotemporal relations concerning road vehicles within a road network, enabling the specification and verification of road vehicle safety rules.
 
